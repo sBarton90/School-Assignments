@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assignment1.css">
+  <title>BMR Calculator</title>
+</head>
+<body>
+  <h2>BMR Calculator</h2>
+  <form>
+    <fieldset>
+      <legend>Enter All Fields</legend>
+      <br>
+      <h2>Imperial Equation</h2>
+      <label for="gender">Gender:</label>
+      <select name="genderImperial" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select><br><br>
+      <label><strong>Age</strong></label><br>
+      Years: <input type="text" id="age" name="age" size="5" type="number"><br><br>
+      <label><strong>Height</strong></label><br>
+      Feet:&emsp;<input type="text" id="feet" name="feet" size="5" type="number">&emsp;
+      Inches:&emsp;<input type="text" id="inches" name="incehs" size="5" type="number"><br><br>
+      <label><strong>Weight</strong></label><br>
+      Pounds:&emsp;<input type="text" id="pounds" name="pounds" size="5" type="number"><br><br>
+      <input type="reset">
+      <input type="button" name="calc" id="calc" value="Calculate!" onclick="calculateBMR()"><br><br>
+      <input type="text" name="total" id="total" value="" size="25" placeholder="Your total caloric intake here">
+
+      <h2>Metric Equation</h2>
+      <label for="genderM">Gender:</label>
+      <select name="genderMetric" id="genderM">
+        <option value="maleM">Male</option>
+        <option value="femaleM">Female</option>
+      </select><br><br>
+      <label><strong>Age</strong></label><br>
+      Years: <input type="text" id="ageM" name="ageM" size="5" type="number"><br><br>
+      <label><strong>Height</strong></label><br>
+      Centimeters:&emsp;<input type="text" id="cms" name="cms" size="5" type="number">&emsp;<br><br>
+      <label><strong>Weight</strong></label><br>
+      Kilograms:&emsp;<input type="text" id="kilos" name="kilos" size="5" type="number"><br><br>
+      <input type="reset">
+      <input type="button" name="calcM" id="calcM" value="Calculate!" onclick="calculateMBMR()"><br><br>
+      <input type="text" name="totalM" id="totalM" value="" size="25" placeholder="Your total caloric intake here">
+
+      <p><small>All equations based on the original Harris–Benedict equations published in 1918 and 1919.</small></p>
+    </fieldset>
+  </form>
+  <script type="text/javascript" src="assignment1.js"></script>
+</body>
+</html>
