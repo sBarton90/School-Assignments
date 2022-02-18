@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name = "author" content = "Shane Barton">
+  <meta name = "description" content = "COMP125 Midterm">
+  <link rel="stylesheet" href="midterm.css">
+  <title>Midterm Practical</title>
+</head>
+<body>
+  <h1>Midterm Practical</h1>
+
+  <form>
+    <fieldset>
+      <legend>Entry 1</legend>
+      First Name <input name="E1FirstName" type="text" id="E1FirstName" placeholder="First Name" required="true">
+      <br><br>
+      Last Name <input name="E1LastName" type="text" id="E1LastName" placeholder="Last Name" required="true">
+      <br><br>
+      Address <input name="E1Address" type="text" id="E1Address" placeholder="Address" required="true">
+      <br><br>
+      Gender <select name="Gender" id="E1Gender" required="true">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <br><br>
+      Phone <input name="E1Phone" type="text" id="E1Phone" placeholder="Phone Number" required="true">
+      <br><br>
+      Year <select name="E1Year" id="E1Year" required="true">
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Entry 2</legend>
+      <input name="SameCheckbox" type="checkbox" id="SameCheckbox" onchange="addressFunction()"> same as Entry 1
+      <br><br>
+      First Name <input name="E1FirstName" type="text" id="E2FirstName" placeholder="First Name">
+      <br><br>
+      Last Name <input name="E1LastName" type="text" id="E2LastName" placeholder="Last Name">
+      <br><br>
+      Address <input name="E1Address" type="text" id="E2Address" placeholder="Address">
+      <br><br>
+      Gender <select name="Gender" id="E2Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <br><br>
+      Phone <input name="E1Phone" type="text" id="E2Phone" placeholder="Phone Number">
+      <br><br>
+      Year <select name="E1Year" id="E2Year">
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+      </select>
+    </fieldset>
+    <br>
+    <input type="submit">
+  </form>
+  <script type="text/javascript" src="midterm.js"></script>
+</body>
+<footer>
+  <hr>
+  <h6>Copyright&copy Shane Barton - 2022 - Centennial College - 301210825</h6>
+  <hr>
+</footer>
+</html>

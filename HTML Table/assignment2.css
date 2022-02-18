@@ -1,0 +1,29 @@
+body {
+  width: 900px;
+  margin: auto;
+  background-color: #8BACBD;
+}
+h2, h3 {
+  text-align: center;
+  color: crimson;
+  font-family: Verdana;
+}
+h6{
+  text-align: center;
+  color: crimson;
+}
+hr{
+  border: 2px solid #003854;
+}
+
+#banner {
+  margin: auto;
+  padding: 0px;
+  width: 900px;
+  height: 200px;
+}
+
+#mainBody {
+  margin: auto;
+  width: 50%;
+}

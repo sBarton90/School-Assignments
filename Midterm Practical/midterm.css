@@ -1,0 +1,22 @@
+h1 {
+  font-family: Verdana;
+  color: #283618;
+}
+ body {
+   background-color: #fefae0;
+ }
+legend {
+  font-family: garamond;
+}
+fieldset {
+  border: 2px solid #283618;
+}
+footer {
+  text-align: center;
+}
+hr {
+  border: 1px solid #283618;
+}
+#E1FirstName, #E1LastName, #E1Address, #E1Phone:invalid {
+  background: rgb(255,233,233);
+}
